@@ -1,0 +1,31 @@
+<h2>Account Creation and Enquiry Form</h2>
+<FORM action="/data.txt" target="_self" method="get">
+    <link href="CSS/style.css"
+    type="text/css"
+    rel="stylesheet">
+    <h4>First Name:</h4><INPUT type="text" name="name" required><br>
+    <h4>Last Name:</h4><INPUT type="text" name="msg" required><br>
+    <h4>Date of Birth:</h4><INPUT type="date" name="dob" required><br>
+    <h4>Gender:</h4>
+        <INPUT type="radio" name="gender" value="Female">Female<br>
+        <INPUT type="radio" name="gender" value="Male">Male<br>
+        <INPUT type="radio" name="gender" value="Others">Others<br>
+    <h4>Email:</h4><INPUT type="email" name="email" required><br>
+    <h4>Password:</h4><INPUT type="password" name="password" required><br>
+    <h4>Enquiry about:</h4>
+        <INPUT type="checkbox" name="option" value="Courses">Courses
+        <INPUT type="checkbox" name="option" value="Services">Services</br>
+    <h4> Select the courses or services:</h4>
+        <select name="select" multiple>
+            <option value="HTML,CSS,JS">HTM,CSS,JS</option>
+            <option value="Java Programming">Java Programming</option>
+            <option value="AWS Cloud">AWS</option>
+            <option value="DBA Support Service">DBA Support Service</option>
+            <option value="Software Development">Software Development</option>
+        </select>
+        <br>
+        <br>
+    
+    <INPUT type="submit" value="Submit"><br><br>
+    <a href="index.html" value='Back'>Back</a>
+</FORM>
